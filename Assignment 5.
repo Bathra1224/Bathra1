@@ -1,0 +1,8 @@
+lst1=[(),('bathra',1),('galish',2),(),('blue',3),(),('black',4),()]
+lst2=[]
+for item in lst1:
+    if len(item)!=0:
+        lst2.append(item)
+print(lst2)
+output:
+[('bathra',1),('galish',2),('blue',3),('black',4)]
